@@ -1,0 +1,13 @@
+opencv-python
+mediapipe
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+tensorflow
+keras
+protobuf
+torch
+torchvision
+streamlit
