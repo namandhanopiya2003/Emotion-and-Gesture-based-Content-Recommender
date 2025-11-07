@@ -28,38 +28,38 @@
 
 ## 📁 PROJECT FOLDER STRUCTURE ==>
 
-main_folder/
-│
-├── data/
-│   ├── emotion/
-│   │   └── fer2013/                  # Raw dataset for training the emotion recognition model
-│   ├── content_pool.csv              # Backup pool of content samples for recommendation system
-│   ├── gesture_data.csv              # Landmark data extracted from gestures (used to train gesture model)
-│   ├── mock_user_data.csv            # Dummy user data
-│   ├── recommendation_content.csv    # Curated content mapped to emotions/gestures for personalized feed
-│   └── session_logs.csv              # Logs of user sessions for behavior analysis and vibe score tracking
-│
-├── models/
-│   ├── analyze_session.py            # Generates visual session analysis from logs (mood/vibe trends visualization)
-│   ├── collect_gesture_data.py       # Script to collect gesture landmark data using MediaPipe (for training)
-│   ├── emotion_detector.py           # Optional: Run real-time emotion detection independently
-│   ├── emotion_model.h5              # Trained CNN model for emotion recognition (FER2013-based)
-│   ├── emotion_model.py              # Script to train the CNN emotion recognition model
-│   ├── gesture_classifier.py         # Landmark extraction & helper for gesture classification
-│   ├── gesture_model.pkl             # Trained scikit-learn model for gesture recognition
-│   ├── gesture_predictor.py          # Optional: Script to test gesture model in real-time (debugging)
-│   ├── recommender.py                # Main recommendation logic using user mood/gesture as input
-│   ├── story_generator.py            # Uses GPT to generate AI-driven interactive stories based on mood
-│   ├── train_gesture_model.py        # Trains gesture recognition model on extracted landmarks
-│   └── vibe_score.py                 # Calculates "Vibe Score" based on user behavior and engagement
-│
-├── utils/
-│   ├── analytics_logger.py           # Logs session details, moods, actions for analytics
-│   ├── data_loader.py                # Utility functions for loading models, CSVs, etc.
-│   └── preprocess_emotion_data.py    # Preprocessing FER2013 data before training
-│
-├── main.py                           # Main application entry point — runs the real-time system
-├── requirements.txt                  # Python dependencies list
+main_folder/<br>
+│<br>
+├── data/<br>
+│   ├── emotion/<br>
+│   │   └── fer2013/                  # Raw dataset for training the emotion recognition model<br>
+│   ├── content_pool.csv              # Backup pool of content samples for recommendation system<br>
+│   ├── gesture_data.csv              # Landmark data extracted from gestures (used to train gesture model)<br>
+│   ├── mock_user_data.csv            # Dummy user data<br>
+│   ├── recommendation_content.csv    # Curated content mapped to emotions/gestures for personalized feed<br>
+│   └── session_logs.csv              # Logs of user sessions for behavior analysis and vibe score tracking<br>
+│<br>
+├── models/<br>
+│   ├── analyze_session.py            # Generates visual session analysis from logs (mood/vibe trends visualization)<br>
+│   ├── collect_gesture_data.py       # Script to collect gesture landmark data using MediaPipe (for training)<br>
+│   ├── emotion_detector.py           # Optional: Run real-time emotion detection independently<br>
+│   ├── emotion_model.h5              # Trained CNN model for emotion recognition (FER2013-based)<br>
+│   ├── emotion_model.py              # Script to train the CNN emotion recognition model<br>
+│   ├── gesture_classifier.py         # Landmark extraction & helper for gesture classification<br>
+│   ├── gesture_model.pkl             # Trained scikit-learn model for gesture recognition<br>
+│   ├── gesture_predictor.py          # Optional: Script to test gesture model in real-time (debugging)<br>
+│   ├── recommender.py                # Main recommendation logic using user mood/gesture as input<br>
+│   ├── story_generator.py            # Uses GPT to generate AI-driven interactive stories based on mood<br>
+│   ├── train_gesture_model.py        # Trains gesture recognition model on extracted landmarks<br>
+│   └── vibe_score.py                 # Calculates "Vibe Score" based on user behavior and engagement<br>
+│<br>
+├── utils/<br>
+│   ├── analytics_logger.py           # Logs session details, moods, actions for analytics<br>
+│   ├── data_loader.py                # Utility functions for loading models, CSVs, etc.<br>
+│   └── preprocess_emotion_data.py    # Preprocessing FER2013 data before training<br>
+│<br>
+├── main.py                           # Main application entry point — runs the real-time system<br>
+├── requirements.txt                  # Python dependencies list<br>
 └── README.md                         # Project overview, setup instructions, features, and usage guide
 
 ---
@@ -157,3 +157,4 @@ python models/gesture_predictor.py           << TO PREDICT gesture from saved CS
 For questions or feedback, feel free to reach out!
 
 ---
+
