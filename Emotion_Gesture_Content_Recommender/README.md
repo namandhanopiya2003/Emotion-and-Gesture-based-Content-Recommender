@@ -114,11 +114,11 @@ pip install -r requirements.txt
 python main.py
 
 ### OTHER STEPS TO RUN [ run_them_after_installing_requirements! ] ==>>
-python models/emotion_model.py               << TO TRAIN emotion model (FER2013, CNN)
-python models/collect_gesture_data.py        << TO COLLECT hand landmarks for gestures (saves CSV)
-python models/train_gesture_model.py         << TO TRAIN gesture classifier (scikit-learn model)
-python models/emotion_detector.py            << TO RUN/TEST emotion detection in real-time (for testing only)
-python models/gesture_classifier.py          << TO TEST trained gesture model on webcam
+python models/emotion_model.py               << TO TRAIN emotion model (FER2013, CNN)<br>
+python models/collect_gesture_data.py        << TO COLLECT hand landmarks for gestures (saves CSV)<br>
+python models/train_gesture_model.py         << TO TRAIN gesture classifier (scikit-learn model)<br>
+python models/emotion_detector.py            << TO RUN/TEST emotion detection in real-time (for testing only)<br>
+python models/gesture_classifier.py          << TO TEST trained gesture model on webcam<br>
 python models/gesture_predictor.py           << TO PREDICT gesture from saved CSV or sample input
 
 ---
@@ -144,11 +144,11 @@ python models/gesture_predictor.py           << TO PREDICT gesture from saved CS
 ---
 
 ## ✨ SAMPLE OUTPUT ==>
-🎥 Webcam Activated
-🙂 Detected Emotion: "Happy"
-🤟 Detected Gesture: "Heart"
-🎬 Recommendation: "Motivational video – You Can Do It!"
-📖 Story Generated: "You’re unstoppable today, just like the sun pushing through the clouds..."
+🎥 Webcam Activated<br>
+🙂 Detected Emotion: "Happy"<br>
+🤟 Detected Gesture: "Heart"<br>
+🎬 Recommendation: "Motivational video – You Can Do It!"<br>
+📖 Story Generated: "You’re unstoppable today, just like the sun pushing through the clouds..."<br>
 📊 Analytics: Vibe Score +2 | 4 gestures, 3 emotions recorded
 
 ---
@@ -157,4 +157,5 @@ python models/gesture_predictor.py           << TO PREDICT gesture from saved CS
 For questions or feedback, feel free to reach out!
 
 ---
+
 
